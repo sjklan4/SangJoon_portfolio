@@ -121,6 +121,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #343a40;
 }
 
+
+
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
@@ -310,6 +312,9 @@ svg {
   vertical-align: middle;
 }
 
+.icon{
+    width: 30px;
+}
 table {
   caption-side: bottom;
   border-collapse: collapse;
