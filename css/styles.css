@@ -343,6 +343,10 @@ th {
   border-width: 0;
 }
 
+.left_td{
+  padding-left: 145px;
+}
+
 label {
   display: inline-block;
 }
