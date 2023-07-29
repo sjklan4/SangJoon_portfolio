@@ -322,6 +322,12 @@ table {
   caption-side: bottom;
   border-collapse: collapse;
 }
+.proimg{
+  
+  width: 410px;
+  height: 240px;
+  border: 2px solid rgb(12, 12, 46);
+}
 
 caption {
   padding-top: 0.5rem;
@@ -10984,3 +10990,8 @@ section.resume-section .resume-section-content {
   }
 }
 
+.projecttable{
+  background-color:#babbbc;
+  overflow: visible;
+  width: 100%;
+}
