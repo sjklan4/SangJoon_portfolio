@@ -10995,3 +10995,8 @@ section.resume-section .resume-section-content {
   overflow: visible;
   width: 100%;
 }
+
+a{
+  color: #6c757d;
+  text-decoration: none;
+}
