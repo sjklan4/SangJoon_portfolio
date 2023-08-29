@@ -121,6 +121,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #343a40;
 }
 
+
+
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
@@ -310,9 +312,21 @@ svg {
   vertical-align: middle;
 }
 
+.icon{
+    width: 30px;
+}
+.icon_word{
+  width: 3.5rem;
+}
 table {
   caption-side: bottom;
   border-collapse: collapse;
+}
+.proimg{
+  
+  width: 410px;
+  height: 240px;
+  border: 2px solid rgb(12, 12, 46);
 }
 
 caption {
@@ -336,6 +350,10 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+}
+
+.left_td{
+  padding-left: 145px;
 }
 
 label {
@@ -8128,7 +8146,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-image: url('../assets/img/leftback.jpg');
 }
 
 .bg-secondary {
@@ -10969,4 +10988,15 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.projecttable{
+  background-color:#babbbc;
+  overflow: visible;
+  width: 100%;
+}
+
+a{
+  color: #6c757d;
+  text-decoration: none;
 }
